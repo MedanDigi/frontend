@@ -1,0 +1,428 @@
+*{
+  outline: none;
+}
+a{
+  text-decoration: none;
+  color: #E94231;
+}
+
+a:hover{text-decoration: none;}
+
+li{
+  list-style: none;
+}
+
+.float-kanan{
+  float: right;
+}
+
+.warna-secondary{
+  color: #00B1B3;
+}
+
+.warna-primary{
+  color: #E94231;
+}
+
+.clear-float{
+  clear: both;
+}
+
+.is-center{
+  text-align: center;
+}
+
+.smartphone-menu{
+  display: none;
+}
+
+.burger-menu{display: none;}
+
+.burger-menu i{
+  font-size: 25px;
+  color: white;
+}
+
+.section-landing{
+  position: relative;
+  background-image: url("../img/cover.jpg");
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  height: 755px;
+}
+
+
+.header-landing .logo img {
+    width: 195px;
+    float: left;
+}
+
+.header-landing {
+    padding-top: 25px;
+}
+
+
+.header-landing nav ul li, header nav ul li {
+    float: left;
+    margin: 11px 15px;
+    font-size: 19px;
+    font-weight: 500;
+}
+
+.header-landing nav ul li a:hover{color: black;}
+
+
+.intro-landing {
+    width: 50%;
+    margin-top: 95px;
+}
+
+.intro-landing h3 {
+    font-size: 31px;
+}
+
+
+.intro-landing p {
+    font-size: 25px;
+}
+
+
+.icon-service span {
+    margin: 5px 25px;
+    text-align: center;
+    /* width: 50%; */
+    height: auto;
+    float: left;
+}
+
+.icon-service span i {
+    color: #00B1B3;
+    font-size: 45px;
+    border: 1px solid #00B1B3;
+    padding: 8px;
+    border-radius: 5px;
+}
+
+.icon-service span p{
+  font-size: 15px;
+  margin-top: 5px;
+}
+
+
+.icon-service {
+    margin: 0 auto;
+    width: 55%;
+}
+
+
+.icon-landing i {
+    position: absolute;
+    font-size: 65px;
+    display: none;
+}
+
+.section-slide{
+  width: 100%;
+  min-height: 738px;
+  background-color: #e84434;
+}
+
+.fixed-header{
+  display: none;
+}
+
+.header-efek-scroll{
+  display: block;
+  position: fixed;
+  top: 0px;
+  width: 100%;
+  background-color: #e84434;
+  transition: ease all 1s;
+-webkit-transition: ease all 1s;
+-moz-transition: ease all 1s;
+-o-transition: ease all 1s;
+z-index: 100;
+}
+
+
+.header nav {
+    margin-top: 7px;
+}
+
+
+.logo-header span img {
+    width: 195px;
+    padding: 5px;
+}
+
+.slide-container{
+  /*width: 85%;*/
+  margin: 0 auto;
+  padding-top: 115px;
+}
+
+
+.header nav ul li a {
+    color: white;
+}
+
+
+.button-intro {
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.button-intro  a{
+  color: white;
+  border: 2px solid #00B1B3;
+  padding: 6px 15px;
+  font-size: 21px;
+  border-radius: 5px;
+  background-color: #00B1B3;
+}
+
+.button-intro  a:hover{
+  color: #00B1B3;
+  background-color: white;
+  transition: ease all 1s;
+-webkit-transition: ease all 1s;
+-moz-transition: ease all 1s;
+-o-transition: ease all 1s;
+}
+
+#about-us{position: relative;background-image: url("../img/SplitShire-3228.jpg");background-size: cover;background-attachment: fixed;background-position: center center;background-repeat: no-repeat;min-height: 768px;}
+
+.container-about-us{
+  background-color: rgba(255, 255, 255, 0.85);
+  min-height: 768px;
+}
+
+
+.video-about-us {
+    margin-top: 150px;
+}
+
+.text-about-us {
+    padding-top: 150px;
+}
+
+
+.title-item {
+    text-align: center;
+    padding-top: 75px;
+    border-bottom: 2px solid;
+    padding-bottom: 25px;
+    margin-bottom: 75px;
+}
+
+.our-service-item i {
+    text-align: center;
+    width: 100%;
+    font-size: 75px;
+}
+
+#our-service {
+    background-color: #f2f2f2;
+    padding: 25px;
+    min-height: 760px;
+}
+
+
+.our-service-item {
+    padding: 15px;
+    margin-top: 15px;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 5px 5px 25px black;
+}
+
+.our-service-item h4 {
+    text-align: center;
+    margin-top: 15px;
+}
+
+.our-service-item p {
+    color: black;
+    text-align: justify;
+}
+
+
+#portofolio {
+    min-height: 768px;
+    padding: 15px;
+}
+
+
+.container-portofolio {
+    margin-top: 95px;
+}
+
+
+.wagwep-container ul#portfolio-filter a {
+    color: #00B1B3;
+    /* text-align: center; */
+}
+
+.wagwep-container ul#portfolio-filter li.current a {
+    background-color: #E94231;
+}
+
+
+#contact {
+    min-height: 760px;
+    padding: 25px;
+}
+
+.contact-item {
+    position: relative;
+    width: 100%;
+    min-height: 280px;
+}
+
+.contact-item .item-img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+.list-contact {
+    width: 100%;
+    padding: 5px;
+    margin-bottom: 5px;
+}
+
+.list-contact i {
+    float: left;
+    margin-right: 25px;
+    margin-top: 5px;
+    font-size: 25px;
+    width: 25px;
+}
+
+
+.list-contact a {
+    font-weight: 600;
+    padding-left: 15px;
+    color: black;
+}
+
+
+footer {
+    height: 65px;
+    color: gray;
+    background-color: #F2F2F2;
+    overflow: hidden;
+}
+
+footer p {
+    line-height: 65px;
+}
+
+
+.og-expander {
+    z-index: 99;
+}
+
+
+@media only screen and (max-width:768px){
+  .icon-landing{
+    display: none;
+  }
+
+  header nav ul li{
+    display: none;
+  }
+
+  .burger-menu{display: block;}
+
+
+  .smartphone-menu {
+      position: fixed;
+      background-color: white;
+      width: 100%;
+      z-index: 999;
+      padding: 15px;
+      min-height: 100%;
+  }
+
+  .smartphone-menu img {
+      width: 185px;
+      float: left;
+  }
+
+  .smartphone-menu nav{
+    margin-top: 25px;
+    border-top: 1px solid #E94231;
+  }
+
+  .smartphone-menu nav ul li a{
+    color: black;
+    display: block;
+    padding: 15px;
+    font-size: 21px;
+    border-bottom: 1px solid #00B1B3;
+  }
+  .button-close{
+    float: right;
+    font-size: 25px
+  }
+  .intro-landing{
+    width: 100%;
+    margin-top: 65px;
+    text-align: center;
+  }
+
+  .header-landing .logo img{
+    display: block;
+    float: none;
+    width: 50%;
+    margin: 0 auto;
+  }
+
+  .icon-service{
+    width: 75%;
+    margin: 15px auto;
+    padding-top: 25px;
+  }
+
+  .icon-service span{
+    width: 50%;
+    display: block;
+    margin: 0 auto;
+  }
+
+  /*.float-kanan{
+    float: none;
+  }*/
+
+  .header-landing{
+    width: 70%;
+    margin: 0 auto;
+  }
+
+  .header-landing .logo a img{
+    width: 223px;
+    margin-left: 0 auto;
+  }
+  .header-landing nav ul a{
+    text-align: center;
+    padding-right: 11px;
+  }
+
+  .button-intro{ top: 87%; }
+
+  .section-landing{height: 680px;}
+
+  .section-slide{min-height: 410px;}
+
+  .text-about-us{padding-top: 15px; }
+
+  nav#porfolio-nav li{
+    width: auto;
+  }
+}
